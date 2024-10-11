@@ -1,0 +1,131 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
+#header {
+    border-top: 30px solid #000;
+}
+
+#header .header_top {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1640px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+#header .header_top ul {
+    display: flex;
+    gap: 12px;
+
+}
+
+#header .header_top ul li {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#header .header_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1640px;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+
+#header h1 a svg {
+    height: 40px;
+}
+
+#header .gnb ul {
+    display: flex;
+    gap: 30px;
+}
+
+#header .gnb ul .gnb_bold {
+    font-weight: 500;
+}
+
+#header .gnb ul li .gnb_black:hover {
+    border-bottom: 3px solid #000;
+    transition: 0.1s;
+}
+
+#header .gnb ul li .gnb_red {
+    color: red;
+    font-weight: 500;
+}
+
+#header .gnb ul li .gnb_red:hover {
+    border-bottom: 3px solid red;
+    transition: 0.1s;
+}
+
+#header .util>ul {
+    display: flex;
+    gap: 8px;
+}
+
+#header .util form {
+    position: relative;
+}
+
+#header .util form>button>img {
+    position: absolute;
+    top: 50%;
+    left: 187px;
+    transform: translate(-50%, -50%);
+    height: 18px;
+}
+
+#main_visual .main_visual_wrap {
+    display: flex;
+    background: #f5fc00;
+}
+
+#main_visual .main_visual_wrap .main_visual_adiclub {
+    flex: 2;
+
+    border-radius: 0 100px 100px 0;
+    overflow: hidden;
+}
+
+#main_visual .main_visual_wrap .main_visual_add {
+    flex: 1;
+    background: #ddd;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_visual .main_visual_adiclub img {
+    width: 100%;
+}
+
+#main_visual .itm_desc>em {
+    font-size: 60px;
+    font-weight: 600;
+    color: #555;
+}
+
+#main_visual .itm_desc>p {
+    font-size: 100px;
+    font-weight: 900;
+    color: #555;
+}
+
+#main_visual .itm_desc .itm_desc_p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.2;
+    padding: 24px 0;
+}
+
+#main_visual .itm_desc .itm_desc_em {
+    font-size: 22px;
+    color: #555;
+    line-height: 1.2;
+}
